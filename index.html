@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document Writer</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+    </head>
+
+    <br>
+        <div id="top-items">
+            <h1 id="main-heading">Document Writer 001</h1>
+            
+            <nav>
+                <ul class="navbar">
+                    <li class="navbar-items" id="home" onclick="clickedMenuItem('home')">Home</li>
+                    <ul class="navbar-items" id="file-options" onclick="clickedMenuItem('file-options')">File Options
+                        <li class="file-options-items">Change background color</li>
+                        <li class="file-options-items">Save</li>
+                        <li class="file-options-items">Delete</li>
+                        <li class="file-options-items">Close</li>
+                    </ul>
+                    <ul class="navbar-items" id="insert" onclick="clickedMenuItem('insert')">Insert
+                        <li class="insert-items">Image</li>
+                        <li class="insert-items">Table</li>
+                        <li class="insert-items">Comment</li>
+                    </ul>
+                    <ul class="navbar-items" id="font-options" onclick="clickedMenuItem('font-options')">Font Options
+                        <li class="font-options-items">Bold</li>
+                        <li class="font-options-items">Italics</li>
+                        <li class="font-options-items">Underline</li>
+                        <li class="font-options-items">Increase font size</li>
+                        <li class="font-options-items">Decrease font size</li>
+                        <li class="font-options-items">Change font color</li>
+                    </ul>
+                    <ul class="navbar-items" id="layout-options"  onclick="clickedMenuItem('layout-options')">Layout Options
+                        <li class="layout-options-items">Align Left</li>
+                        <li class="layout-options-items">Align Right</li>
+                        <li class="layout-options-items">Align Center</li>
+                    </ul>
+                    <ul class="navbar-items" id="search-options"  onclick="clickedMenuItem('search-options')">Search Options
+                        <li class="search-options-items">Find</li>
+                        <li class="search-options-items">Find and Replace</li>
+                    </ul>
+                </ul>
+            </nav>
+            </nav>
+        </div>
+        <div>
+            <br/>
+            <br/>
+        </div>
+            <textarea onkeyup="checkOverflow()" rows="40" class="blank-page" cols="90" id="blank-page" ></textarea> <br/>
+            <textarea onkeyup="checkOverflow()" style="display: none;" rows="40" class="blank-page" cols="90" id="blank-page1" ></textarea> <br/>
+    </body>
+
+</html>

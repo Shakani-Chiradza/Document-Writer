@@ -1,0 +1,71 @@
+#main-heading {
+    text-align: center;
+}
+
+body {
+    background-color: darkgray;
+}
+
+nav {
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-items {
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    
+}
+
+.navbar-items:hover {
+    background-color: mediumaquamarine;
+}
+
+
+.blank-page {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px;
+    resize: none;
+    overflow-wrap: break-word;
+}
+
+#top-items {
+    background-color: mediumturquoise;
+    margin-top: -20px;
+    padding-top: 10px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.file-options-items, .insert-items, .font-options-items, .layout-options-items, .search-options-items{
+    display: none;
+}
+
+
+
+.alt-blank-page {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px;
+    background-color: white;
+    width: 670px;
+    height: 150px;
+    max-height: 150px;
+    border: 1px solid black;
+}
