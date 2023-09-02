@@ -32,7 +32,7 @@ nav {
 }
 
 .navbar-items:hover {
-    background-color: mediumaquamarine;
+    background-color: rgb(102, 205, 205);
 }
 
 
@@ -43,7 +43,10 @@ nav {
     padding: 80px;
     resize: none;
     overflow-wrap: break-word;
+    width: 630px;
+    height: 891px;
 }
+
 
 #top-items {
     background-color: mediumturquoise;
@@ -51,10 +54,12 @@ nav {
     padding-top: 10px;
     margin-left: -20px;
     margin-right: -20px;
+    height: fit-content;
 }
 
 .file-options-items, .insert-items, .font-options-items, .layout-options-items, .search-options-items{
     display: none;
+    background-color: mediumturquoise;
 }
 
 
